@@ -20,6 +20,7 @@ Pry
 * Powerful alternative to the standard IRB shell
 * Runtime developer console
 * Pry and its plugins have something for everyone. Pry is not a development tool – it's a toolbox!
+* Wiki: https://github.com/pry/pry/wiki
 
 Installing Pry
 --------------
@@ -39,13 +40,17 @@ Using Pry - Listing
 Use filters to limit information:
 * -m: public methods
 * -M: class/module methods
+* -p: public methods
 * -q: quiet (only methods on class singleton)
+* -v: verbose (all methods in all parent classes)
+* -g: all global variables
+* -l: locals
+* -c: constants
 * -G: grep
 * -i: instance variables
-* -c: constants
 * -h: help
 
-Imo, most useful are:
+Most useful are:
 * ls -Mq className
 * ls -mq instance
 
@@ -89,6 +94,7 @@ binding.remote_pry
 Jazz Hands
 ----------
 https://github.com/nixme/jazz_hands
+
 Collection of tools to make your debugging experience awesome!
 
 * Pry
