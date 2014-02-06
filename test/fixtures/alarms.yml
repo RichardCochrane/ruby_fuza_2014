@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  description: MyText
+  time: MyString
+  repeat: false
+  repeat_days: MyString
+  active: false
+  allow_snooze: false
+  maths_to_dismiss: false
+
+two:
+  description: MyText
+  time: MyString
+  repeat: false
+  repeat_days: MyString
+  active: false
+  allow_snooze: false
+  maths_to_dismiss: false

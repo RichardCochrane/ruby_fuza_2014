@@ -1,0 +1,2 @@
+module AlarmsControllerHelper
+end
